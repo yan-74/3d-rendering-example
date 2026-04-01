@@ -17,10 +17,34 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(renderer.domElement);
 
+// ======================
+// STEP 1: GEOMETRY HERE
+// ======================
+
+
+
+// ======================
+// STEP 4: FRAGMENT SHADING HERE
+// ======================
+
+
+
 function animate() {
 
     requestAnimationFrame(animate);
 
+    // ======================
+    // STEP 2: VERTEX SHADING HERE
+    // ======================
+
+
+
+    // ======================
+    // STEP 3: RASTERIZATION HERE
+    // ======================
+
+
+    
     renderer.render(scene, camera);
 }
 
