@@ -1,7 +1,9 @@
 import * as THREE from 'three';
 
+//scene is the container for all our 3D objects, cameras, and lights
 const scene = new THREE.Scene();
 
+//create camera with FOV, aspect ratio, near and far clipping planes
 const camera = new THREE.PerspectiveCamera(
     75,
     window.innerWidth / window.innerHeight,
@@ -11,40 +13,25 @@ const camera = new THREE.PerspectiveCamera(
 
 camera.position.z = 5;
 
+//renderer is what draws the scene
 const renderer = new THREE.WebGLRenderer();
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(renderer.domElement);
 
-// ======================
-// STEP 1: GEOMETRY HERE
-// ======================
+// --- step 1, 3, and 4 code here! ---
 
 
-
-// ======================
-// STEP 4: FRAGMENT SHADING HERE
-// ======================
-
-
-
+//animation loop, which will be called every frame
 function animate() {
 
     requestAnimationFrame(animate);
 
-    // ======================
-    // STEP 2: VERTEX SHADING HERE
-    // ======================
+    // --- step 2 animation code here! ---
 
 
-
-    // ======================
-    // STEP 3: RASTERIZATION HERE
-    // ======================
-
-
-    
+    //pass scene and camera to renderer, which draws the 3D scene as a 2D image to the canvas!
     renderer.render(scene, camera);
 }
 
