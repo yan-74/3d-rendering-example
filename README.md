@@ -21,8 +21,11 @@ This workshop attempts to simulate each step of the 3D rendering pipeline. For e
 starter/main.js -> edit the code in this file!
 
 Step 1 - Geometry (steps/step1-geometry.js)
+
 Step 2 - Vertex Shading (steps/step2-vertex.js)
+
 Step 3 - Rasterization (steps/step3-rasterization.js)
+
 Step 4 - Fragment Shading (steps/step4-fragment.js)
 
 final/main.js -> final version of how the file should look like, feel free to play around and edit the values once you're done!

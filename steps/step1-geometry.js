@@ -1,5 +1,7 @@
 // STEP 1: GEOMETRY
 
+//This first step is us creating the 3d model of our cube
+
 //box geometry contains all the points (vertices) and faces (triangles) that make up a cube
 const geometry = new THREE.BoxGeometry();
 
