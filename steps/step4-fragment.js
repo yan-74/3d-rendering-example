@@ -11,8 +11,4 @@ const newMaterial = new THREE.MeshStandardMaterial({
 
 cube.material = newMaterial;
 
-//create light source with color and intensity and add it to scene
-const light = new THREE.PointLight(0xffffff, 67);
-light.position.set(5,5,5);
-
-scene.add(light);
+//also feel free to edit the light source we created in step 1 to simulate different kinds of lighting!
